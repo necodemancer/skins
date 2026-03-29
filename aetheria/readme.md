@@ -1,1 +1,1 @@
-
+Header by [三百斤叶大猫](https://www.weibo.com/u/5417574578), footer background by [鋭角とうふ](https://x.com/EEEKAKU_TOFU), and background by [SubtlePatterns](https://www.toptal.com/designers/subtlepatterns/patterns/).
