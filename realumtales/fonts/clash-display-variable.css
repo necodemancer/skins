@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Clash Display';
+  src: url('https://dl.dropboxusercontent.com/scl/fi/bcvkhmeqhxr7bg1yeoc7r/ClashDisplay-Variable.woff2?rlkey=fzuhiv8ta5chqdvhhy4558l53&dl=0') format('woff2-variations'),
+       url('https://dl.dropboxusercontent.com/scl/fi/6dzvy5k5bihy7ogru59a7/ClashDisplay-Variable.woff?rlkey=wj7mijqpojiscflf6fp5g9pda&dl=0') format('woff-variations'),
+       url('https://dl.dropboxusercontent.com/scl/fi/twyctzz7jwxad2a0jch97/ClashDisplay-Variable.ttf?rlkey=q2uxfwoja4zx9g5rpp54aoj5y&dl=0') format('truetype-variations');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
