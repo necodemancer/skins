@@ -1,17 +1,17 @@
 const DEFAULT_LANG = {
     button: {
-        add: "AÃ±adir personaje"
+        add: "Añadir personaje"
     },
     msg: {
-        error: "Ha ocurrido un error, intÃ©ntalo de nuevo.",
-        confirm: "Â¿Confirmar acciÃ³n?"
+        error: "Ha ocurrido un error, inténtalo de nuevo.",
+        confirm: "¿Confirmar acción?"
     },
     modal: {
         password_placeholder: "",
-        password_label: "ContraseÃ±a",
+        password_label: "Contraseña",
         username_label: "Nombre de usuario",
         username_placholder: "",
-        login_button: "AÃ±ade la cuenta"
+        login_button: "Añade la cuenta"
     }
 };
 
@@ -24,8 +24,8 @@ const DEFAULT_OPT = {
     blockClass: 'switcheroo',
     deleteIcon: `-`,
     addIcon: `+`,
-    errorMsg: 'Ha ocurrido un error, intÃ©ntalo de nuevo.',
-    confirmMsg: 'Â¿Confirmar acciÃ³n?',
+    errorMsg: 'Ha ocurrido un error, inténtalo de nuevo.',
+    confirmMsg: '¿Confirmar acción?',
     modal: {}
 };
 
@@ -83,7 +83,7 @@ function extend(obj1, obj2) {
             if (t.isCloseButton(e)) {
                 e.preventDefault();
         	     e.stopPropagation();
-        	     if (confirm('Â¿EstÃ¡s seguro de que deseas eliminar esta cuenta del cambiacuentas?')) {
+        	     if (confirm('¿Estás seguro de que deseas eliminar esta cuenta del cambiacuentas?')) {
 			  t.deleteRecord(this.dataset.id);
     			}
             }
