@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'aetheria';
+  src:  url('./aetheria.eot?jflpwd');
+  src:  url('./aetheria.eot?jflpwd#iefix') format('embedded-opentype'),
+    url('./aetheria.ttf?jflpwd') format('truetype'),
+    url('./aetheria.woff?jflpwd') format('woff'),
+    url('./aetheria.svg?jflpwd#aetheria') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ae {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'aetheria' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ae-inactivos:before {
+  content: "\e900";
+}
+.ae-users:before {
+  content: "\e901";
+}
+.ae-cakeverse:before {
+  content: "\e902";
+}
+.ae-staff:before {
+  content: "\e903";
+}
+.ae-mixverse:before {
+  content: "\e904";
+}
+.ae-doseverse:before {
+  content: "\e905";
+}
+.ae-gardenverse:before {
+  content: "\e906";
+}
+.ae-omegaverse:before {
+  content: "\e907";
+}
+.ae-guideverse:before {
+  content: "\e908";
+}
+.ae-subverse:before {
+  content: "\e909";
+}
+.ae-noverse:before {
+  content: "\e90a";
+}
