@@ -113,7 +113,7 @@ MONOMER.prototype.user = function() {
         };
     } else {
         this._instance = 'u';
-        return new Error("La fonction .user() n'est pas encore dÃ©veloppÃ©e.");
+        return new Error("La fonction .user() n'est pas encore développée.");
     }
 };
 
@@ -376,7 +376,7 @@ FA_OBJECT.prototype.fetcherFeedback = function(res, promise) {
 };
 
 FA_OBJECT.prototype.isUserLoggedIn = function() {
-    if (!this._m.user().logged) return new Error('Action invitÃ© impossible');
+    if (!this._m.user().logged) return new Error('Action invité impossible');
 };
 
 
@@ -448,7 +448,7 @@ function FA_LOGIN() {
         method: 'POST'
     }, body).then(r => r.text())
     .then(function(html) {
-        if(html.indexOf("Vous avez spÃ©cifiÃ© un nom d'utilisateur incorrect ou inactif ou un mot de passe invalide") >= 0) {
+        if(html.indexOf("Vous avez spécifié un nom d'utilisateur incorrect ou inactif ou un mot de passe invalide") >= 0) {
             throw new Error('Something went wrong');
         } else {
             return {
@@ -609,7 +609,7 @@ function buildOut() {
       this.closeButton = document.createElement("button");
       this.closeButton.setAttribute('type', 'button');
       this.closeButton.className = "monomer-close close-button";
-      this.closeButton.innerHTML = "Ã—";
+      this.closeButton.innerHTML = "×";
       this.modal.appendChild(this.closeButton);
     }
 
