@@ -1,0 +1,93 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                   CREATED BY ROSS DON'T REMOVE MY CREDITS
+          
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#r2205_make-me-smile-make-me-cry {
+  --width: 290px;
+  --img-size-1: 100px;
+  --img-size-2: 50px;
+  --top-spacing: 5px 20px 36px;
+  --bg-color: #181818;
+  --accent: #a8b5ac;
+  --title: #a8b5ac;
+  --text: #000;
+}
+
+#r2205_make-me-smile-make-me-cry .rcontainer {
+  width: var(--width);
+  background: var(--bg-color);
+  border-radius: 5px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+#r2205_make-me-smile-make-me-cry .rtop {
+  height: calc(var(--img-size-1) - (var(--img-size-1) / 1.5));
+  padding: var(--top-spacing);
+}
+
+#r2205_make-me-smile-make-me-cry .rtop a[href="https://is.gd/rossr"] img {
+  width: var(--img-size-1);
+  height: var(--img-size-1);
+  object-fit: cover;
+  border-radius: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 4px solid var(--accent);
+}
+
+#r2205_make-me-smile-make-me-cry a[href="https://is.gd/rossr"] ~ .rtitle {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  width: calc(100% - var(--img-size-1));
+  font: 55px/100% 'Oswald', sans-serif;
+  letter-spacing: -3px;
+  color: var(--title);
+}
+
+#r2205_make-me-smile-make-me-cry .rbot {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  min-height: calc(var(--img-size-1) - (var(--img-size-1) / 1.5));
+  background: var(--accent);
+  padding: 10px 8px;
+}
+
+#r2205_make-me-smile-make-me-cry .rbot .rsub {
+  width: calc(100% - var(--img-size-1) - 50px);
+  font: bold 6px/120% 'Calibri', sans-serif; 
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  color: var(--text);
+}
+
+#r2205_make-me-smile-make-me-cry:after {
+  display: block;
+  content: "「R」";
+  font: bold 7px/12px 'Arial';
+  text-transform: uppercase;
+  opacity: .3;
+}
+
+#r2205_make-me-smile-make-me-cry:hover::after {
+  content: "「ROSS RESOURCES」";
+}
