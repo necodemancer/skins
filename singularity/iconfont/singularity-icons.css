@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Singularity';
+  src:  url('./Singularity.eot?sgaiib');
+  src:  url('./Singularity.eot?sgaiib#iefix') format('embedded-opentype'),
+    url('./Singularity.ttf?sgaiib') format('truetype'),
+    url('./Singularity.woff?sgaiib') format('woff'),
+    url('./Singularity.svg?sgaiib#Singularity') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.sg {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Singularity' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sg-beast:before {
+  content: "\e900";
+}
+.sg-creator:before {
+  content: "\e901";
+}
+.sg-everyman:before {
+  content: "\e902";
+}
+.sg-explorer:before {
+  content: "\e903";
+}
+.sg-inactives:before {
+  content: "\e904";
+}
+.sg-innocent:before {
+  content: "\e905";
+}
+.sg-jester:before {
+  content: "\e906";
+}
+.sg-keeper:before {
+  content: "\e907";
+}
+.sg-knight:before {
+  content: "\e908";
+}
+.sg-lover:before {
+  content: "\e909";
+}
+.sg-mage:before {
+  content: "\e90a";
+}
+.sg-muse:before {
+  content: "\e90b";
+}
+.sg-orphan:before {
+  content: "\e90c";
+}
+.sg-rogue:before {
+  content: "\e90d";
+}
+.sg-ruler:before {
+  content: "\e90e";
+}
+.sg-sage:before {
+  content: "\e90f";
+}
+.sg-seducer:before {
+  content: "\e910";
+}
+.sg-singularity:before {
+  content: "\e915";
+}
+.sg-slave:before {
+  content: "\e911";
+}
+.sg-staff:before {
+  content: "\e912";
+}
+.sg-trickster:before {
+  content: "\e913";
+}
+.sg-users:before {
+  content: "\e914";
+}
