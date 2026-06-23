@@ -149,6 +149,7 @@ body.chatbox {
     grid-template-columns:100%;
     place-content:flex-start;
     gap:var(--gap);
+    overflow: auto;
     &:has(#cb_connect_option) {
       grid-template-rows:100%;
       place-content:center;
