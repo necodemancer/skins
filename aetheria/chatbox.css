@@ -143,6 +143,7 @@ body.chatbox {
     grid-template-columns:100%;
     place-content:flex-start;
     gap:var(--gap);
+    overflow:auto;
     &:has(#cb_connect_option) {
       grid-template-rows:100%;
       place-content:center;
@@ -282,6 +283,7 @@ body.chatbox {
           padding:0 1em;
           font:var(--fset-body1);
           line-height:1;
+          border:var(--border2);
         }
         & input[type="submit"] {
           height:100%;
@@ -291,7 +293,7 @@ body.chatbox {
           padding:0 4em;
           text-transform:var(--tt-mono);
           background:var(--mainbg3);
-          border:var(--border1);
+          border:var(--border2);
           border-radius:var(--bradius3);
           color:var(--subtitle)!important;
           outline:0;
@@ -316,7 +318,7 @@ body.chatbox {
       place-content:center;
       font-size:var(--fs-h7);
       background:var(--mainbg3);
-      border:var(--border1);
+      border:var(--border2);
       box-shadow:unset;
       outline:0;
       border-radius:var(--bradius3);
