@@ -335,9 +335,11 @@ body.chatbox {
       align-items:stretch;
     }
     & .format-message:checked + label {
-      background:var(--mainbg4)!important;
+      background:var(--mainbg5)!important;
+      color:var(--title);
       &:hover {
-        background:var(--mainbg5)!important;
+        background:var(--mainbg6)!important;
+        color:var(--title);
       }
     }
     #divcolor, #divgifs, #divsmilies, #help-button, .format-message + label {
