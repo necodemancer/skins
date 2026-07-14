@@ -311,6 +311,12 @@ body.chatbox {
       justify-content:center;
       align-items:stretch;
     }
+    .format-message:checked + label {
+      background:var(--mainbg4)!important;
+      &:hover {
+        background:var(--mainbg5)!important;
+      }
+    }
     #divcolor, #divgifs, #divsmilies, #help-button, .format-message + label {
       height:100%;
       aspect-ratio:1;
