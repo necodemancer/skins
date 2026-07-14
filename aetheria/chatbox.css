@@ -1,7 +1,7 @@
 body.chatbox {
   height: 100dvh;
   display:grid;
-  grid-template-columns:clamp(10rem, 25%, 30rem) 1fr;
+  grid-template-columns:clamp(10rem, 25%, 20rem) 1fr;
   grid-template-rows:max-content 1fr max-content;
   grid-template-areas:
     'header header'
@@ -332,7 +332,7 @@ body.chatbox {
       justify-content:center;
       align-items:stretch;
     }
-    .format-message:checked + label {
+    & .format-message:checked + label {
       background:var(--mainbg4)!important;
       &:hover {
         background:var(--mainbg5)!important;
