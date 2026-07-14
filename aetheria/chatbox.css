@@ -205,6 +205,8 @@ body.chatbox {
         font:var(--fset-body2);
         line-height:1.5em;
         padding:1.5em;
+        &:has(.spoiler_content) { padding:0; }
+        & .spoiler_content { padding:1.5em; }
         & code {
           color:var(--text2);
         }
