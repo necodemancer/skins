@@ -190,10 +190,31 @@ body.chatbox {
         }
       }
     }
+    & dl.codebox {
+      border: var(--border1);
+      background: var(--mainbg2);
+      & dt {
+        font:700 var(--fset-titles5);
+        line-height:1;
+        text-transform:var(--tt-titles-small);
+        color:var(--subtitle);
+        border-bottom:var(--border1);
+        padding:1em;
+      }
+      & dd {
+        font:var(--fset-body2);
+        line-height:1.5em;
+        padding:1.5em;
+        & code {
+          color:var(--text2);
+        }
+      }
+    }
     & > p {
       border:var(--border1);
       background:var(--mainbg2);
       padding:var(--gap);
+      &:empty { display:none; }
       & .date-and-time {
         margin:0;
         font:var(--fset-mono5);
