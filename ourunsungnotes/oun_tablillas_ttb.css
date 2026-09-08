@@ -5,15 +5,15 @@
   background: var(--opaco3);
   margin: 0 auto;
   &[style*="--color1:"] {
-    & *, & *::before, & *::after { --c:var(--c); }
+    & *, & *::before, & *::after { --c:var(--color1); }
     &:not([style*="--color2:"]) {
-      & *, & *::before, & *::after { --c2:var(--c); }
+      & *, & *::before, & *::after { --c2:var(--color1); }
     }
   }
   &[style*="--color2:"] {
-    & *, & *::before, & *::after { --c2:var(--c2); }
+    & *, & *::before, & *::after { --c2:var(--color2); }
     &:not([style*="--color1:"]) {
-      & *, & *::before, & *::after { --c:var(--c2); }
+      & *, & *::before, & *::after { --c:var(--color2); }
     }
   }
 }
@@ -562,15 +562,15 @@
   justify-content: center;
   display: flex;
   &[style*="--color1:"] {
-    & *, & *::before, & *::after { --c:var(--c); }
+    & *, & *::before, & *::after { --c:var(--color1); }
     &:not([style*="--color2:"]) {
-      & *, & *::before, & *::after { --c2:var(--c); }
+      & *, & *::before, & *::after { --c2:var(--color1); }
     }
   }
   &[style*="--color2:"] {
-    & *, & *::before, & *::after { --c2:var(--c2); }
+    & *, & *::before, & *::after { --c2:var(--color2); }
     &:not([style*="--color1:"]) {
-      & *, & *::before, & *::after { --c:var(--c2); }
+      & *, & *::before, & *::after { --c:var(--color2); }
     }
   }
 }
@@ -1532,17 +1532,16 @@
 .grupokpop {
   border: var(--border1);
   background: var(--opaco3);
-  
   &[style*="--color1:"] {
-    & *, & *::before, & *::after { --c:var(--c); }
+    & *, & *::before, & *::after { --c:var(--color1); }
     &:not([style*="--color2:"]) {
-      & *, & *::before, & *::after { --c2:var(--c); }
+      & *, & *::before, & *::after { --c2:var(--color1); }
     }
   }
   &[style*="--color2:"] {
-    & *, & *::before, & *::after { --c2:var(--c2); }
+    & *, & *::before, & *::after { --c2:var(--color2); }
     &:not([style*="--color1:"]) {
-      & *, & *::before, & *::after { --c:var(--c2); }
+      & *, & *::before, & *::after { --c:var(--color2); }
     }
   }
 }
@@ -1827,15 +1826,15 @@ span.gkb-icon img {
   overflow-y: auto;
   overflow-x: hidden;
   &[style*="--color1:"] {
-    & *, & *::before, & *::after { --c:var(--c); }
+    & *, & *::before, & *::after { --c:var(--color1); }
     &:not([style*="--color2:"]) {
-      & *, & *::before, & *::after { --c2:var(--c); }
+      & *, & *::before, & *::after { --c2:var(--color1); }
     }
   }
   &[style*="--color2:"] {
-    & *, & *::before, & *::after { --c2:var(--c2); }
+    & *, & *::before, & *::after { --c2:var(--color2); }
     &:not([style*="--color1:"]) {
-      & *, & *::before, & *::after { --c:var(--c2); }
+      & *, & *::before, & *::after { --c:var(--color2); }
     }
   }
 }
