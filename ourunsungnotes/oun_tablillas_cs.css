@@ -1459,7 +1459,7 @@
   border-inline: 0;
 }
 
-.tab-registro {
+.tab-registros .tab-registro {
   outline: var(--border1);
   padding: 2rem;
   gap: 1rem;
