@@ -73,7 +73,7 @@
   color:var(--c);
   text-transform:uppercase;
   font:700 var(--fs-tiny) var(--f-mono);
-  text-shadow: var(--shadow-w);
+  text-shadow: var(--shadow-b);
   line-height:var(--fs-tiny);
 }
 
@@ -3593,7 +3593,7 @@ span.win-total b {
   font: italic calc(var(--fs-h4) - .4rem) var(--f-titles);
   text-transform: lowercase;
   line-height: calc(var(--fs-h4) - .4rem);
-  text-shadow: var(--shadow-w);
+  text-shadow: var(--shadow-b);
   color: var(--subtitle);
   margin-bottom: 20px;
   letter-spacing: -.05em;
