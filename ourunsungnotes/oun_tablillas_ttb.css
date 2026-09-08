@@ -1787,8 +1787,6 @@ span.gkb-icon img {
   color: transparent;
   background:linear-gradient(to right, var(--c2), var(--c));
   background-clip:text;
-  -webkit-background-clip:text;
-  -moz-background-clip:text;
 }
 
 .gkt-member summary .gkt-icon:before, .gkt-member summary .gkt-icon:after {
@@ -2695,8 +2693,7 @@ span.twp-icon img {
   color: transparent;
   background: linear-gradient(to right, var(--c), var(--c2));
   background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+  padding:.1em;
 }
 
 .emp-head i {
