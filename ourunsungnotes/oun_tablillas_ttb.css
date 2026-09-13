@@ -3819,8 +3819,8 @@ span.r3-letter {
   text-transform: uppercase;
   font-family: var(--f-deco);
   position: absolute;
-  left: -20px;
-  top: 20px;
+  left: -2px;
+  top: 25px;
   -webkit-text-stroke: 0.75px var(--c2);
   opacity: .25;
 }
