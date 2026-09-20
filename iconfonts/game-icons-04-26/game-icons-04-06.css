@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "game-icons";
-	src: url("game-icons.eot?435d753485c40cf9a82df56314905c8a?#iefix") format("embedded-opentype"),
-url("game-icons.woff?435d753485c40cf9a82df56314905c8a") format("woff"),
-url("game-icons.ttf?435d753485c40cf9a82df56314905c8a") format("truetype");
+	src: url("./game-icons.eot?#iefix") format("embedded-opentype"),
+url("./game-icons.woff") format("woff"),
+url("./game-icons.ttf") format("truetype");
 }
 
 .game-icon {
